@@ -1,1 +1,10 @@
 *.nupkg
+
+# Vim Files #
+*~
+.*.un~
+.*.sw[m-p]
+Session.vim
+
+# Emacs Files #
+.\#*
