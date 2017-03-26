@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>acrylic-dns-proxy</id>
+    <version>0.9.35</version>
+    <title>Acrylic DNS Proxy</title>
+    <authors>msmfbn@gmail.com</authors>
+    <owners>CMCDragonkai</owners>
+    <packageSourceUrl>https://sourceforge.net/projects/acrylic/files/Acrylic/0.9.35/</packageSourceUrl>
+    <projectUrl>http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>### Overview
+Acrylic is a local DNS proxy for Windows which improves the performance of your computer by caching the responses coming from your DNS servers and helps you fight unwanted ads through a custom HOSTS file (optimized for handling hundreds of thousands of domain names) with support for wildcards and regular expressions.
+
+This package will install Acrylic DNS Proxy into Program Files (x86), it will also add a Windows service called `Acrylic DNS Proxy` which will be automatically started and set to start on startup. The service will not run if you already have something bound to port 53 UDP on IPv4 or IPv6.
+
+It also automatically creates an Inbound Firewall Rule called `Allow Acrylic DNS Proxy Service`, it is enabled on all interfaces, allowing any packet to hit `AcrylicService.exe`. The service itself however is configured to limit its responses to local IPs, this is configurable.
+
+The 2 executables to play with are `AcrylicController.exe` and `AcrylicConsole.exe`. The controller controls the service, while the console is an interactive foreground version of the service.
+
+All configuration occurs inside the installation folder.
+
+Uninstallation is not automated at the moment. To uninstall, navigate to installation directory and run `Uninstall.exe /S`.
+    </description>
+    <summary>Local DNS Proxy for Windows</summary>
+    <releaseNotes>http://mayakron.altervista.org/wikibase/show.php?id=AcrylicChangeLog</releaseNotes>
+    <tags>Acrylic DNS Proxy</tags>
+  </metadata>
+</package>
