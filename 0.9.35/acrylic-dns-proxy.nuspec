@@ -4,7 +4,7 @@
     <id>acrylic-dns-proxy</id>
     <version>0.9.35</version>
     <title>Acrylic DNS Proxy</title>
-    <authors>msmfbn@gmail.com</authors>
+    <authors>msmfbn</authors>
     <owners>CMCDragonkai</owners>
     <packageSourceUrl>https://github.com/MatrixAI/Chocolatey-Acrylic-DNS-Proxy</packageSourceUrl>
     <projectUrl>http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome</projectUrl>
